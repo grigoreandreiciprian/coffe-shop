@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rosybrown;
+}
+
+
+header{
+   background-image: url("/img/coffe.jpg");
+    background-size: cover;
+    resize: both;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+
+.shadow{
+    background-color: rgba(0,0,0,.26);
+    width: 100%;
+    height: 100%;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 40%;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+
+.title h1{
+    margin: 0px;
+}
+
+.title p{
+    margin: 0px;
+}
+
+.main{
+    margin: 5%;
+    background-color: rosybrown;
+}
+.main h1{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap:10px;
+    width: 80%;
+    margin: 5% auto;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #262626;
+    width: 100%;
+}
+
+.card img{
+    width: 60%;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 1%;
+    font-size: 20px;
+    color: white;
+    background-color: #262626;
+    margin-top: 0px;
+}
+
+
+.search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 25px;
+    margin: 1% 0px;
+}
+
+
+.add{
+    width: 80%;
+    margin: auto;
+}
+
+
+.add h1{
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+
+.products{
+    display: flex;
+    flex-direction: column;
+}
+
+.products input{
+    width: 30%;
+}
+
+
+.products button{
+    width: 30%;
+    background-color: #262626;
+    color: white;
+    margin: 1% 0px;
+    font-size: 20px;
+
+}
+
+
+  footer{
+      background-color: #262626;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }

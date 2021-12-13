@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="shadow">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="title">
+            <h1>Coffe to GO</h1>
+            <p>Best coffe in town at the best price </p>
+        </div>
+        </div>
+    </header>
+
+
+    <section class="main">
+
+        <div class="search">
+            <h1>Our products</h1>
+            <div class="search-bar">
+                <label for="search">Search products</label>
+             <input type="text" id="search" name="search">
+        </div>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h1>Denumire Produs</h1>
+                <img src="/img/coffe-cup.jpg">
+                <p>Descriere</p>
+                <p>Pret</p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            
+        </div>
+    </section>
+
+
+    <section class="add">
+
+        <h1>Add products</h1>
+
+        <div class="products">
+            <label for="name">Product name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="url">Image URL</label>
+            <input type="text" id="url" name="url">
+
+            <label for="Descriere">Product Description</label>
+            <input type="text" id="descriere" name="descriere">
+
+            <label for="pret">Product price</label>
+            <input type="number" id="price" name="price">
+
+            <button type="submit" class="submit">Submit</button>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Copyright@2021 Coffe to go</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="helpers.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
