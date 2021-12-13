@@ -12,7 +12,7 @@ let products=[
         name:"Short black",
         price:"2$",
         description:"Coffe Shot",
-       url: "img/short-black.jpg",
+       url: "./img/coffe-cup.jpg",
     },
 
     {
