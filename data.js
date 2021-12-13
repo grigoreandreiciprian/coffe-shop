@@ -4,7 +4,7 @@ let products=[
         name:"Expresso",
         price:"2$",
         description:"Small coffe",
-        url:"/img/coffe-cup.jpg",
+        url:"img/coffe-cup.jpg",
     },
 
 
@@ -12,14 +12,14 @@ let products=[
         name:"Short black",
         price:"2$",
         description:"Coffe Shot",
-       url: "/img/short-black.jpg",
+       url: "img/short-black.jpg",
     },
 
     {
         name:"Americano",
         price:"2$",
         description:"Long coffe",
-       url: "/img/americano.jpg",
+       url: "img/americano.jpg",
     },
 
 
@@ -27,7 +27,7 @@ let products=[
         name:"Picolo",
         price:"3$",
         description:"Coffe+Milk shot",
-       url: "/img/picolo.jpg",
+       url: "img/picolo.jpg",
     },
 
 
@@ -35,7 +35,7 @@ let products=[
         name:"Flat White",
         price:"5$",
         description:"Expresso + Steamed milk",
-       url: "/img/flat-white.jpg",
+       url: "img/flat-white.jpg",
     },
 
 
@@ -45,7 +45,7 @@ let products=[
         name:"Capuccino",
         price:"3$",
         description:"Expresso + Steamed milk",
-       url: "/img/cappucino.jpg",
+       url: "img/cappucino.jpg",
     },
 
 
@@ -56,7 +56,7 @@ let products=[
         name:"Latte",
         price:"5$",
         description:"Expresso + Steamed milk + flavors",
-       url: "/img/latte.jpg",
+       url: "img/latte.jpg",
     },
 
 
@@ -64,7 +64,7 @@ let products=[
         name:"Hot chocolate",
         price:"3$",
         description:"Hot chocolate",
-       url: "/img/hot-chocolate.jpg",
+       url: "img/hot-chocolate.jpg",
     },
 
 
@@ -73,7 +73,7 @@ let products=[
         name:"Mochacino",
         price:"5$",
         description:"Expresso + Steamed milk + Chocolate powder",
-       url: "/img/mocacino.jpg",
+       url: "img/mocacino.jpg",
     },
 
 
@@ -82,7 +82,7 @@ let products=[
         name:"Filter coffe",
         price:"5$",
         description:"Filtered coffe",
-       url: "/img/filter.jpg",
+       url: "img/filter.jpg",
     },
 
 
@@ -92,7 +92,7 @@ let products=[
         name:"Orange Fresh",
         price:"5$",
         description:"Orange juice from fresh oranges",
-       url: "/img/orange juice.jpg",
+       url: "img/orange juice.jpg",
     },
 
 
@@ -102,7 +102,7 @@ let products=[
         name:"Ice tea",
         price:"5$",
         description:"Tea + ice",
-       url: "/img/ice-tea.jpg",
+       url: "img/ice-tea.jpg",
     },
 
 
@@ -112,7 +112,7 @@ let products=[
         name:"Hause Tea",
         price:"6$",
         description:"Handmade Tea",
-       url: "/img/hause-tea.jpg",
+       url: "img/hause-tea.jpg",
     },
 
 
@@ -122,7 +122,7 @@ let products=[
         name:"Coca-Cola",
         price:"3$",
         description:"A can of cola",
-       url: "/img/coca.jpg",
+       url: "img/coca.jpg",
     },
 
 
@@ -131,14 +131,14 @@ let products=[
         name:"Soy Milk",
         price:"3$",
         description:"Milk made from soy",
-       url: "/img/soy.jpg",
+       url: "img/soy.jpg",
     },
     
     {
         name:"Steamed Milk",
         price:"1.5$",
         description:"Steam milk",
-       url: "/img/milk.jpg",
+       url: "img/milk.jpg",
     },
 
 
@@ -148,7 +148,7 @@ let products=[
         name:"Long island Iced Tea",
         price:"10$",
         description:"Tea + Ice + Rum",
-       url: "/img/long.jpg",
+       url: "img/long.jpg",
     },
 
 
@@ -159,7 +159,7 @@ let products=[
         name:"Chai Tea",
         price:"5$",
         description:"Tea with spices",
-       url: "/img/chai.jpg",
+       url: "img/chai.jpg",
     },
 
 
@@ -167,7 +167,7 @@ let products=[
         name:"Fresh Juice",
         price:"5$",
         description:"Fresh made from fruit of choice",
-       url: "/img/fresh.jpg",
+       url: "img/fresh.jpg",
     },
 
 
